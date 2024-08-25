@@ -38,7 +38,7 @@ class Header extends React.Component{
       <header >
         <nav>
           <div style={{display:"flex"}}>
-            <img className="logo"  src={logo}/>
+            <img className="logo" src={logo} alt="logo"/>
 
             <h1 className='name'>KUMARANRAJA</h1>
           </div>
@@ -54,7 +54,7 @@ class Header extends React.Component{
       <section>
       
         <div style={{marginTop:"auto",marginBottom:'auto'}}>
-          <img className='profile_img' src={image}></img>
+          <img className='profile_img' src={image} alt="My Image"></img>
 
         </div>
         <div>
@@ -79,7 +79,7 @@ class About extends React.Component{
     return(
       <div id="about" >
         <div className="about_img_container">
-          <img className="about_img" src={aboutImg}></img>
+          <img className="about_img" src={aboutImg} alt="Computer Image"></img>
         </div>
           <div className="about_content_container">
           <h1 className="about_headline" style={{ color:"greenyellow"}}>About Us</h1>
@@ -103,27 +103,27 @@ class Skills extends React.Component{
           <h1 className="skill_set">Frontend Development</h1>
           <div className="skills_container">
             <div>
-              <img className="skills_img" src={html} />
+              <img className="skills_img" src={html} alt="HTML5 logo" />
               <p className="skill_name">HTML</p>
             </div>
             <div>
-              <img className="skills_img" src={css} />
+              <img className="skills_img" src={css} alt="CSS logo"/>
               <p className="skill_name">CSS</p>
             </div>
             <div>
-              <img className="skills_img" src={bootstrap} />
+              <img className="skills_img" src={bootstrap} alt="bootstrap logo" />
               <p className="skill_name">Bootstrap</p>
             </div>
             <div>
-              <img className="skills_img" src={js} />
+              <img className="skills_img" src={js} alt="js logo" />
               <p className="skill_name">JavaScript</p>
             </div>
             <div>
-              <img className="skills_img" src={jQuery} />
+              <img className="skills_img" src={jQuery} alt="jquery logo" />
               <p className="skill_name">jQuery</p>
             </div>
             <div>
-              <img className="skills_img" src={react} />
+              <img className="skills_img" src={react} alt="react logo" />
               <p className="skill_name">React</p>
             </div>
           </div>
@@ -131,46 +131,46 @@ class Skills extends React.Component{
           <div className="skills_container">
 
             <div>
-              <img className="skills_img" src={java} />
+              <img className="skills_img" src={java} alt="java logo"/>
               <p className="skill_name">Java</p>
             </div>
             <div>
-              <img className="skills_img" src={mongodb} />
+              <img className="skills_img" src={mongodb} alt="mongoDb logo" />
               <p className="skill_name">MongoDB</p>
             </div>
             <div>
-              <img className="skills_img" src={firebase} />
+              <img className="skills_img" src={firebase} alt="firebase logo"/>
               <p className="skill_name">Firebase</p>
             </div>
             <div>
-              <img className="skills_img" src={mysql} />
+              <img className="skills_img" src={mysql} alt="mySql logo" />
               <p className="skill_name">MySQL</p>
             </div>
             <div>
-              <img className="skills_img" src={spring} />
+              <img className="skills_img" src={spring} alt="spring logo"/>
               <p className="skill_name">Spring</p>
             </div>
             <div>
-              <img className="skills_img" src={aws} />
+              <img className="skills_img" src={aws} alt="AWS logo" />
               <p className="skill_name">AWS</p>
             </div>
           </div>
           <h1 className="skill_set">Development Tools</h1>
           <div className="skills_container">
             <div>
-              <img className="skills_img" src={vsCode} />
+              <img className="skills_img" src={vsCode} alt="VS logo" />
               <p className="skill_name">VS Code</p>
             </div>
             <div>
-              <img className="skills_img" src={androidStudio} />
+              <img className="skills_img" src={androidStudio} alt="android studio logo" />
               <p className="skill_name">Android Studio</p>
             </div>
             <div>
-              <img className="skills_img" src={git} />
+              <img className="skills_img" src={git} alt="git logo"/>
               <p className="skill_name">Git</p>
             </div>
             <div>
-              <img className="skills_img" src={github} />
+              <img className="skills_img" src={github} alt="github logo"/>
               <p className="skill_name">GitHub</p>
             </div>
           </div>
@@ -191,7 +191,7 @@ class Project extends React.Component{
           <h1 style={{textAlign:"center" ,marginBottom:"30px", color:"greenyellow"}}>Projects</h1>
             <div className="Project_grid">
               <div className="project_container">
-                <img className="project_img" src={digital}/>
+                <img className="project_img" src={digital} alt="digital marketing image"/>
                   <h3 className="project_name">Digital Marketing Application</h3>
                   <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
                     <a href="https://github.com/Kumaran-raja/digitalMarketingApp" target="_blank" rel="noopener noreferrer">
@@ -200,7 +200,7 @@ class Project extends React.Component{
                   </div>
               </div>
               <div className="project_container">
-                <img className="project_img" src={calculator}/>
+                <img className="project_img" src={calculator} alt="calculator image"/>
                 <h3 className="project_name">Calculator</h3>
                 <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
                     <a href="https://github.com/Kumaran-raja/Calculator" target="blank"><button className="source_code">
@@ -209,7 +209,7 @@ class Project extends React.Component{
                   </div>
               </div>
               <div className="project_container">
-                <img className="project_img" src={comingsoon}/>
+                <img className="project_img" src={comingsoon} alt="loading image"/>
                 <h3 className="project_name">Loading...</h3>
                  
               </div>
@@ -230,21 +230,21 @@ class Contact extends React.Component{
          <h1 className="contact_headline" style={{ color:"greenyellow"}}>Contact Me</h1>
 
           <div style={{display:"flex", gap:"20px"}}>
-            <img className="contact_page_img" src={location} />
+            <img className="contact_page_img" src={location} alt="location icon" />
             <div>
             <h2 className="contact_head">Address</h2>
             <h3 className="contact_data" onClick={()=>{window.open('https://www.google.com/maps?q=8.442198813044733, 77.63033155266302', 'blank')}}>136/2 Nadar street,<br></br>Sirumalanchi,Tirunelveli, Tamilnadu - 627103</h3>
           </div>
             </div>
             <div style={{display:"flex", gap:"20px"}}>
-            <img className="contact_page_img" src={email} />
+            <img className="contact_page_img" src={email} alt="email icon" />
             <div>
             <h2 className="contact_head">Email</h2>
             <h3 className="contact_data" onClick={()=>{window.open('mailto:kumaranraja222@gmail.com','blank')}}>kumaranraja222@gmail.com</h3>
           </div>
             </div>
             <div style={{display:"flex", gap:"20px"}}>
-            <img className="contact_page_img" src={phone} />
+            <img className="contact_page_img" src={phone} alt="phone icon" />
             <div>
             <h2 className="contact_head">Phone</h2>
             <h3 className="contact_data" onClick={()=>{window.open("tel:9543439311",'blank')}}>9543439311</h3>
