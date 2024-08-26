@@ -208,11 +208,7 @@ class Project extends React.Component{
                     </button></a>
                   </div>
               </div>
-              <div className="project_container">
-                <img className="project_img" src={comingsoon} alt="loading image"/>
-                <h3 className="project_name">Loading...</h3>
-                 
-              </div>
+          
               
             </div>
         </div>
