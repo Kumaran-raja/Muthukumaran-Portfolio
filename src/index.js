@@ -204,7 +204,7 @@ class Project extends React.Component{
                 <a href="https://swimmingpoolwebsitetemplate.netlify.app/" target="blank"> <img className="project_img" src={swimmingpool} alt="calculator image"/></a>
                 <h3 className="project_name">Swimming Pool Website</h3>
                 <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
-                    <a href="https://github.com/Kumaran-raja/Swimming-pool" target="blank"><button className="source_code">
+                    <a href="https://github.com/Kumaran-raja/Swimming-pool" target="blank"><button className="source_code" disabled>
                       Source Code
                     </button></a>
                   </div>
@@ -213,7 +213,7 @@ class Project extends React.Component{
                 <a href="https://acksclwebsite.netlify.app" target="blank"> <img className="project_img" src={sclproject} alt="calculator image"/></a>
                 <h3 className="project_name">School Website</h3>
                 <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
-                    <a href="https://github.com/Kumaran-raja/School-Website" target="blank"><button className="source_code">
+                    <a href="https://github.com/Kumaran-raja/School-Website" target="blank"><button className="source_code" disabled>
                       Source Code
                     </button></a>
                   </div>
