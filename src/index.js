@@ -27,8 +27,9 @@ import location from './images/location.png'
 import email from './images/gmail.png'
 import phone from './images/phone.png'
 import digital from './images/digital marketing.jpg'
-import calculator from './images/calculator.jpg'
-import comingsoon from './images/coming soon.jpg'
+import sclproject from './images/scl project.png'
+import swimmingpool from './images/swimming pool project.png'
+
 
 class Header extends React.Component{
   render(){
@@ -200,15 +201,23 @@ class Project extends React.Component{
                   </div>
               </div>
               <div className="project_container">
-                <img className="project_img" src={calculator} alt="calculator image"/>
-                <h3 className="project_name">Calculator</h3>
+                <a href="https://swimmingpoolwebsitetemplate.netlify.app/" target="blank"> <img className="project_img" src={swimmingpool} alt="calculator image"/></a>
+                <h3 className="project_name">Swimming Pool Website</h3>
                 <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
-                    <a href="https://github.com/Kumaran-raja/Calculator" target="blank"><button className="source_code">
+                    <a href="https://github.com/Kumaran-raja/Swimming-pool" target="blank"><button className="source_code">
                       Source Code
                     </button></a>
                   </div>
               </div>
-          
+              <div className="project_container">
+                <a href="https://acksclwebsite.netlify.app" target="blank"> <img className="project_img" src={sclproject} alt="calculator image"/></a>
+                <h3 className="project_name">School Website</h3>
+                <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
+                    <a href="https://github.com/Kumaran-raja/School-Website" target="blank"><button className="source_code">
+                      Source Code
+                    </button></a>
+                  </div>
+              </div>
               
             </div>
         </div>
