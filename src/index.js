@@ -10,7 +10,6 @@ import aboutImg from './images/about.jpg'
 import html from './images/html.png'
 import js from './images/js.png'
 import css from './images/css.png'
-
 import java from './images/java.png'
 import react from './images/react.png'
 import mongodb from './images/mongodb.png'
@@ -29,6 +28,8 @@ import phone from './images/phone.png'
 import digital from './images/digital marketing.jpg'
 import sclproject from './images/scl project.png'
 import swimmingpool from './images/swimming pool project.png'
+import couseproject from './images/course project.png'
+
 
 
 class Header extends React.Component{
@@ -204,21 +205,30 @@ class Project extends React.Component{
                 <a href="https://swimmingpoolwebsitetemplate.netlify.app/" target="blank"> <img className="project_img" src={swimmingpool} alt="calculator image"/></a>
                 <h3 className="project_name">Swimming Pool Website</h3>
                 <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
-                    <a href="https://github.com/Kumaran-raja/Swimming-pool" target="blank"><button className="source_code" disabled>
+                    <a href="https://github.com/Kumaran-raja/Swimming-pool" target="blank"><button className="source_code">
                       Source Code
                     </button></a>
                   </div>
               </div>
               <div className="project_container">
-                <a href="https://acksclwebsite.netlify.app" target="blank"> <img className="project_img" src={sclproject} alt="calculator image"/></a>
+                <a href="https://sclwebsite.netlify.app" target="blank"> <img className="project_img" src={sclproject} alt="calculator image"/></a>
                 <h3 className="project_name">School Website</h3>
                 <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
-                    <a href="https://github.com/Kumaran-raja/School-Website" target="blank"><button className="source_code" disabled>
+                    <a href="https://github.com/Kumaran-raja/School-Website" target="blank"><button className="source_code">
                       Source Code
                     </button></a>
                   </div>
               </div>
               
+              <div className="project_container">
+                <a href="https://course-platform-8xj2.onrender.com/" target="blank"> <img className="project_img" src={couseproject} alt="calculator image"/></a>
+                <h3 className="project_name">Course Website</h3>
+                <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
+                    <a href="https://github.com/Kumaran-raja/Course-platform" target="blank"><button className="source_code">
+                      Source Code
+                    </button></a>
+                  </div>
+              </div>
             </div>
         </div>
       </div>

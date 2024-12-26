@@ -313,7 +313,7 @@ section{
     text-transform: uppercase;
   }
   #project{
-    height: 155vh;
+    height: max-content;
   }
   .Project_grid{
     display: grid;
@@ -389,7 +389,7 @@ section{
     justify-content: space-around;
     grid-template-columns: 100px 100px ;
   }
-
+ 
   #skills{
     height: 220vh;
     display: grid;
@@ -419,7 +419,7 @@ section{
     text-transform: uppercase;
   }
   #project{
-    height: 160vh;
+    height: max-content;
   }
   .Project_grid{
     display: grid;
@@ -534,7 +534,7 @@ section{
     text-transform: uppercase;
   }
   #project{
-    height: 155vh;
+    height: max-content;
   }
   .Project_grid{
     display: grid;
